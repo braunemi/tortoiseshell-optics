@@ -116,6 +116,7 @@ a {
 
 /* Information Container */
 #info-container {
+  width: 1032px;
   margin-top: 3rem;
   display: flex;
   justify-content: center;
@@ -145,4 +146,23 @@ a {
 .info p {
   font-family: Helvetica;
   margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: azure;
+  width: 1032px;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer img {
+  height: 1.5rem;
+  margin: 4rem 0;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
+footer p {
+  font-family: Helvetica;
 }
