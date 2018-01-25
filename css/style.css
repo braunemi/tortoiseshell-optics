@@ -107,3 +107,9 @@ a {
   font-family: Helvetica;
   text-align: center;
 }
+#logo-box__two p {
+  margin-top: 50px;
+}
+#logo-box__three p {
+  margin-top: 42px;
+}
