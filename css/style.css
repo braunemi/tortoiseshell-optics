@@ -82,8 +82,8 @@ a {
   margin: 1.5rem 5rem;
 }
 
-/* Attributes */
-#attributes {
+/* Logos */
+#logos-container {
   display: flex;
   justify-content: center;
 }
@@ -94,13 +94,13 @@ a {
   flex-direction: column;
   align-items: center;
 }
-#one, #two {
+#logo-box__one, #logo-box__two {
   margin-right: 6rem;
 }
-#img1 {
+#paper-logo {
   width: 3.5rem;
 }
-.logo img {
+#ruler-logo, #truck-logo {
   width: 5rem;
 }
 .logo p {
