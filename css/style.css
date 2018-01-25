@@ -80,5 +80,30 @@ a {
   line-height: 1.2;
   padding: 0;
   margin: 1.5rem 5rem;
+}
 
+/* Attributes */
+#attributes {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  height: 8rem;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#one, #two {
+  margin-right: 6rem;
+}
+#img1 {
+  width: 3.5rem;
+}
+.logo img {
+  width: 5rem;
+}
+.logo p {
+  font-family: Helvetica;
+  text-align: center;
 }
