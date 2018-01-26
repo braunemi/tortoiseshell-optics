@@ -48,22 +48,24 @@ body {
 #logo-white img {
   height: 1.5rem;
   margin-left: 2rem;
-  margin: 0 1rem;
 }
 #logo-white p {
   margin-left: 1rem;
 }
-ul {
+#desktop-tablet-nav {
   margin: 0;
   display: flex;
 }
-li {
+#desktop-tablet-nav li {
   display: flex;
 }
-a {
+#desktop-tablet-nav a {
   color: white;
   text-decoration: none;
   margin: 1rem 2rem;
+}
+#phone-nav {
+  display: none;
 }
 
 /* Company Slogan */
@@ -127,7 +129,7 @@ a {
   justify-content: : center;
   width: 35%;
 }
-#phi-info, #app-info {
+#phi-title, #app-title {
   background-color: cadetblue;
   font-family: Helvetica;
   font-weight: bold;
@@ -136,7 +138,7 @@ a {
   color: white;
   width: 10rem;
 }
-#phi-info p, #app-info p {
+#phi-title p, #app-title p {
   margin: .5rem 0;
   margin-left: 1.25rem;
 }
@@ -165,4 +167,128 @@ footer img {
 }
 footer p {
   font-family: Helvetica;
+}
+
+/* Tablet Queries */
+@media only screen and (max-width: 1024px) {
+  #container {
+    width: 100%;
+  }
+  #top-banner {
+    margin: 0;
+  }
+  #main-bg {
+    height: 22rem;
+  }
+  #slogan {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  #slogan p {
+    font-size: 1.33rem;
+    margin: .75rem 4rem;
+  }
+  #logos-container {
+    width: 100%;
+  }
+  #info-container {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+}
+
+/* Phone Queries */
+@media only screen and (max-width: 480px) {
+  #main-bg {
+    height: 17rem;
+    background-position: 20%;
+  }
+  #container {
+    width: 100%;
+  }
+  #top-banner {
+    margin: 0;
+  }
+  #logo-white p {
+    display: none;
+  }
+  #phone-nav {
+    display: flex;
+  }
+  #phone-nav ul {
+    margin-right: 2rem;
+  }
+  #phone-nav li {
+    display: flex;
+  }
+  #phone-nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+  }
+  #desktop-tablet-nav {
+    display: none;
+  }
+  #slogan {
+    margin-top: 9rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #slogan p {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+  }
+  #logos-container {
+    margin: 3.77rem 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #logo-box__one, #logo-box__two {
+    margin-right: 0;
+    margin-bottom: 1.54rem;
+  }
+  .logo {
+    padding: 0;
+  }
+  #info-container {
+    margin-top: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #info-box__one {
+    margin-right: 0;
+  }
+  #phi-title, #app-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #phi-title p, #app-title p {
+    margin-left: 0;
+  }
+  .info {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .info p {
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: .51rem;
+    margin-right: 2rem;
+  }
+  footer {
+    width: 100%;
+    justify-content: center;
+  }
+  footer img {
+    margin: 4rem 0;
+  }
+  footer p {
+    display: none;
+  }
 }
